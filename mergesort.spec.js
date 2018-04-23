@@ -7,8 +7,8 @@ describe('Split Array function', function() {
 
 describe('Merge function', function(){
   it('is able to merge two sorted arrays into one sorted array', function(){
-    const firstArray = [1,4,3];
-    const secondArray = [2,5];
+    const firstArray = [1,3,5];
+    const secondArray = [2,4];
     expect(merge(firstArray, secondArray)).toEqual([1,2,3,4,5]);
   });
 });
